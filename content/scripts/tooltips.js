@@ -52,3 +52,23 @@ tippy ('.ttpHepta', {
 })
 
 // -------------------- Diferenciais:
+tippy ('.ttpRapido', {
+    theme: 'cadore',
+    placement: 'left',
+    maxWidth: '250px',
+    content: 'O anseio por bons resultados me empurrou até aqui. <br><br> A curiosidade de conhecer um universo tão amplo é o que me motiva a continuar estudando.'
+})
+
+tippy ('.ttpProativo', {
+    theme: 'cadore',
+    placement: 'left',
+    maxWidth: '250px',
+    content: 'Além disso, ainda tenho uma disponibilidade invejável.<br><br> Não tenho problema em levar trabalho pra casa e posso inclusive trabalhar aos sábados, caso necessário.'
+})
+
+tippy ('.ttpPiada', {
+    theme: 'cadore',
+    placement: 'left',
+    maxWidth: '250px',
+    content: 'Sabe o que o Herbalista foi fazer no hospital? <br><br> Ser Médico de Plantão. 🤣🤣'
+})

@@ -74,9 +74,25 @@ body {
 
 /* -------------------- ---------- scrolling01 */
 .scrolling01 {
-    background: #e6e6e6;
-    height: 225px;
+    background: #303030;
+    min-height: 225px;
     width: 100%;
+    box-shadow: 0 0 2px 0 #313131;
+    text-align: center;
+    padding: 30px 0 15px 0;
+    color: #fff;
+}
+.scrolling01 h4{
+    max-width: 30%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #fb2056;
+}
+.scrolling01 .content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
 }
 /* -------------------- Fim do scrolling01 */
 
@@ -114,7 +130,7 @@ body {
 .detailsCard {
     transition: 0.35s;
     background: #38383885;
-    color: rgb(34, 34, 34);
+    color: #202020;
     border-top: 2px solid rgba(34, 34, 34, 0.2);
     padding: 30px 20px 30px 20px;
 }
@@ -147,8 +163,18 @@ body {
 .detailsCard a:hover {
     color: #eb3663;
 }
-h6.strong {
+h6.strong, h6 strong {
     color: #eb3663!important;
+}
+.formacao {
+    transition: 0.35s;
+}
+.formacao strong {
+    color: #9a9a9a!important
+}
+.detailsCards .formacao:hover h6 strong {
+    transition: 0.35s;
+    color: #eb3663!important
 }
 /* .ultimoDaLista {
 
@@ -162,6 +188,52 @@ h6.strong {
     height: 500px;
     width: 100%;
     box-shadow: 0 0 5px 0 #252525;
+    font-family: 'Titillium Web'!important, sans-serif;
+}
+.scrolling03 .row {
+    height: 100%;
+    width: 100%;
+}
+.scrolling03 .row .col-md-6 {
+    height: 100%;
+}
+.personal_texto {
+    height: 100%;
+    padding: 50px 50px 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.personal_texto h1 {
+    color: #fff;
+    font-weight: 800;
+    font-size: 2rem;
+}
+.personal_texto h5 {
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.personal_texto h4 {
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.personal_foto {
+    background-image: url(../../images/profile.png);
+    background-size: 100%;
+    background-position: left;
+}
+.personal_foto img{
+    margin-left: -20px;
+}
+.white_strip {
+    position: absolute;
+    margin-top: 90px;
+    left: 0;
+    height: 2px;
+    width: 45%;
+    background: #fff;
 }
 /* -------------------- Fim do scrolling03 */
 
@@ -171,7 +243,31 @@ h6.strong {
     width: 100%;
     height: 70px;
     background: #252525;
+    position: relative;
 }
-
+.footer .strip {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    height: 2px;
+    width: 50%;
+    background: #fb2056;
+}
+.footer .strip2 {
+    position: absolute;
+    right: 0;
+    top: -10px;
+    height: 3px;
+    width: 30%;
+    background: #fb2056;
+}
+.footer .strip3 {
+    position: absolute;
+    right: 0;
+    top: -20px;
+    height: 3px;
+    width: 20%;
+    background: #fb2056;
+}
 
 /* -------------------- Fim do footer */
