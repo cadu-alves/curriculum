@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body {  
+    height: 100%;
+    widows: 100%;
+    background: #383838;
+    background-image: url(../../images/bg_texture03.png);
+}
+
+#home_canvas {
+    background-position: center;
+    height: calc(100vh - 56px);
+    width: 100%;
+    position: relative;
+}
+
+.row {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tippy-tooltip.cadore-theme {
+    color: #fefefe;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid rgb(44, 44, 44);
+}
+
+.cPointer:hover {
+    cursor:pointer;
+    color: #fb2056!important;
+    transition: 0.35s;
+}
+
+/* -------------------- ---------- Texto de Boas Vindas */
+.boasVindas {
+    position: absolute;
+    margin: auto auto;
+    width: fit-content;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.boasVindas h1{
+    font-size: 88px;
+    font-weight: 100;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: 4.4px;
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #fb2056;
+    width: 100%;
+}
+.boasVindas h3{
+    font-size: 17px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 0em;
+    letter-spacing: 5.8px;
+}
+.boasVindas h5 {
+    font-style: italic;
+}
+/* -------------------- Fim do texto de Boas Vindas */
+
+/* -------------------- ---------- scrolling01 */
+.scrolling01 {
+    background: #e6e6e6;
+    height: 225px;
+    width: 100%;
+}
+/* -------------------- Fim do scrolling01 */
+
+/* -------------------- ---------- scrolling02 */
+.scrolling02 {
+    min-height: 100px;
+    width: 100%;
+}
+
+.details {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.details h3 {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fb2056;
+}
+.details h6{
+    font-size: 12px;
+}
+.detailsCards {
+    width: 100%;
+    min-height: 200px;
+}
+.detailsCards div {
+    margin-bottom: 30px;
+}
+.detailsCard {
+    transition: 0.35s;
+    background: #38383885;
+    color: rgb(34, 34, 34);
+    border-top: 2px solid rgba(34, 34, 34, 0.2);
+    padding: 30px 20px 30px 20px;
+}
+.detailsCard:hover {
+    transition: 0.35s;
+    border-top: 2px solid #fb2056;
+    box-shadow: -1px 1px 2px 0 #252525;
+}
+.detailsCard:hover h3 {
+    color: white;
+}
+.detailsCard:hover h6 {
+    color: #9a9a9a;
+}
+.detailsCard h3 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.detailsCard h6 {
+    width: fit-content;
+    color: #707070;
+    font-family: 'Fira Sans',sans-serif;
+}
+.detailsCard a {
+    font-weight: 700;
+    color: #707070;
+}
+.detailsCard a:hover {
+    color: #eb3663;
+}
+h6.strong {
+    color: #eb3663!important;
+}
+/* .ultimoDaLista {
+
+} */
+
+/* -------------------- Fim do scrolling02 */
+
+/* -------------------- ---------- scrolling03 */
+.scrolling03 {
+    background: #fb2056;
+    height: 500px;
+    width: 100%;
+    box-shadow: 0 0 5px 0 #252525;
+}
+/* -------------------- Fim do scrolling03 */
+
+
+/* -------------------- ---------- footer */
+.footer {
+    width: 100%;
+    height: 70px;
+    background: #252525;
+}
+
+
+/* -------------------- Fim do footer */
