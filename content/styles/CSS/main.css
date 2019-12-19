@@ -188,7 +188,7 @@ h6.strong, h6 strong {
     height: 500px;
     width: 100%;
     box-shadow: 0 0 5px 0 #252525;
-    font-family: 'Titillium Web'!important, sans-serif;
+    font-family: 'Titillium Web', sans-serif!important;
 }
 .scrolling03 .row {
     height: 100%;
@@ -271,3 +271,55 @@ h6.strong, h6 strong {
 }
 
 /* -------------------- Fim do footer */
+
+/* -------------------- Div de Aviso */
+.aviso {
+    width: 400px;
+    background: #383838;
+    border-radius: 4px;
+    border: 1px solid #fb2056;
+    color: white;
+    padding: 10px 15px 0;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.aviso h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.aviso p {
+    font-size: 12px;
+}
+/* -------------------- Fim do Aviso */
+
+/* -------------------- Navbar */
+.navbar {
+    font-size: 12px!important;
+}
+
+.navbar a.navbar-brand {
+    font-size: 14px;
+}
+
+/* -------------------- Fim da Navbar */
+
+.dropdown-menu {
+    background: #383838;
+    border: 1px solid #fb2056!important;
+}
+.dropdown-menu a {
+    color: white!important;
+    font-size: 14px;
+}
+a.dropdown-item:hover {
+    background: none!important;
+    color: #fb2056!important;
+    transition: 0.35s;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    background-color: #fb2056;
+}
