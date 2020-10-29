@@ -7,7 +7,7 @@ body {
     height: 100%;
     widows: 100%;
     background: #383838;
-    background-image: url(../../images/bg_texture03.png);
+    /*background-image: url(../../images/bg_texture03.png);*/
 }
 
 #home_canvas {
